@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input,
+label {
+  display: block;
+}
+input {
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 20px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #adadad;
+  border-radius: 2px;
+}
+label {
+  color: #1d252c;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin: 0 0 5px;
+}
+p {
+  margin: 0 0 16px;
+}
+ul {
+  list-style-type: none;
+}
+.block-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+.continue-button {
+  width: 100%;
+  font-weight: bold;
+  background-color: #ffce00;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.help-text {
+  font-size: small;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.main-container {
+  background-color: #f4f6f9;
+  width: 80%;
+  padding-bottom: 25px;
+  border-radius: 2%;
+}
+.inner-container {
+  width: 90%;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 2%;
+}
+.order-summary-column {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.transaction-success {
+  font-weight: bold;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  width: 62%;
+  opacity: 0.75;
+}
+
+.transaction-failure {
+  font-weight: bold;
+  background-color: rgb(226, 49, 49);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 62%;
+  opacity: 0.75;
+}

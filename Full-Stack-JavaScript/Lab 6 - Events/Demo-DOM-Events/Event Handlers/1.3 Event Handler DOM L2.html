@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Event Demo</title>
+   
+</head>
+<body>
+    <div id="container">
+        <br/>
+        <input id="btn" type="button" value="Save" onclick="showAlert()">
+        
+    </div>
+    <script>
+       let btn = document.querySelector('#btn');
+       
+        btn.addEventListener('click',function() {
+            alert('Clicked!');
+        });
+
+        // won't work
+        btn.addEventListener('mouseenter', function() {
+            alert('Mouse in!');
+        });
+
+    </script>
+</body>

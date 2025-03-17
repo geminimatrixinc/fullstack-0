@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button id="startBtn" >Start Timeout</button>
+
+<button id="stopBtn" onclick="clearTimer">Stop Timeout</button>
+
+<script>
+var timer;
+
+const startTimer = () => {
+    console.log('timeout started..')
+    timer = setTimeout(myFunction, 3000)
+}
+
+const clearTimer = () => {
+  console.log('timeout cleared..')
+  clearTimeout(timer);
+}
+function myFunction() {
+  alert("Hello");
+}
+
+window.onload = () => {
+    document.querySelector('#startBtn')
+            .addEventListener("click", startTimer);
+
+    document.querySelector('#stopBtn')
+            .addEventListener("click", clearTimer);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+1. What is the tag that registers JavaScript in the HTML document?
+
+
+Correct: <script>
+
+Option 2: <JavaScript>
+
+Option 3: <link>
+
+
+2. How do you link an internal JavaScript file in an HTML document?
+
+Correct: <script src="file.js"></script>
+
+Option 1: <script path="file.js"></script>
+
+Option 2: <script>file.js</script>
+
+3. How would you defined a standard variable in JavaScript?
+
+
+Correct: var keyword
+
+Option 2: param keyword
+
+Option 3: constant keyword
+
+
+
+4. Which is an example of primitive data types of JavaScript?
+
+Correct: number, booleans, string
+
+Option 1: pointer, cache, buffer
+
+Option 2: objects, classes, interfaces
+
+5. What is the JavaScript syntax to output to the browser console?
+
+Correct: console.log
+
+Option 1: log.output
+
+Option 2: console.verbose
+
+

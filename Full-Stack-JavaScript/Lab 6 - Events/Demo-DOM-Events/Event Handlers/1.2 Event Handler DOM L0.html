@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Event Demo</title>
+   
+</head>
+<body>
+    <div id="container">
+        <br/>
+        <input id="btn" type="button" value="Save" onclick="showAlert()">
+        
+    </div>
+    <script>
+        let btn = document.querySelector('#btn');
+
+        btn.onclick = function() {
+            alert(this.id); 
+        };
+
+        btn.mouseover = function () {
+            alert('hover me');
+        }
+        //btn.onclick = null; // remove handler
+    </script>
+</body>

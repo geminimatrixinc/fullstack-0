@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Out</title>
+    <link href="CheckOut.css" rel="stylesheet" />
+    <body>
+  </head>
+
+    <div class="main-container">
+      <h1>Payment</h1>
+
+      <fieldset class="inner-container">
+        <p class="block-title">
+          <label class="section-title">Credit Card</label>
+        </p>
+        <hr />
+        <p class="block-title">
+          <label class="section-title">Card Information</label>
+        </p>
+        <table>
+          <tr>
+            <!-- Credit Card Column-->
+            <td style="width: 50%">
+              <form id="checkOutForm" autocomplete="on">
+                <div class="form-container">
+                  <section>
+                    <ul>
+                      <li>
+                        <label for="CreditCardNumber">Credit Card Number</label>
+                        <input
+                          id="CreditCardNumber"
+                          type="text"
+                          value=""
+                          name="CreditCardNumber"
+                          placeholder="Enter Visa or Mastercard"
+                        />
+                      </li>
+                      <li>
+                        <table>
+                          <tr>
+                            <td>
+                              <label for="ExpiryMonth">Expiry Month</label>
+                              <input
+                                type="text"
+                                name="ExpiryMonths"
+                                list="Months"
+                                size="15"
+                              />
+                              <datalist id="Months">
+                                <option value="01"></option>
+                                <option value="02"></option>
+                                <option value="03"></option>
+                                <option value="04"></option>
+                                <option value="05"></option>
+                              </datalist>
+                            </td>
+                            <td>
+                              <label for="ExpiryYear">Expiry Year</label>
+                              <input
+                                type="text"
+                                name="ExpiryYears"
+                                list="Years"
+                                size="15"
+                              />
+                              <datalist id="Years">
+                                <option value="2020"></option>
+                                <option value="2021"></option>
+                                <option value="2022"></option>
+                                <option value="2023"></option>
+                                <option value="2024"></option>
+                                <option value="2025"></option>
+                              </datalist>
+                            </td>
+                          </tr>
+                        </table>
+                      </li>
+                      <li>
+                        <table>
+                          <tr>
+                            <td>
+                              <label for="ccv">CCV</label>
+                              <input id="ccv" type="text" value="" name="ccv" />
+                            </td>
+                            <td>
+                              <label class="help-text"
+                                >This 3 or 4 digit code is on the back or front
+                                of your card.
+                              </label>
+                            </td>
+                          </tr>
+                        </table>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </form>
+            </td>
+            <!-- Order Summary Column -->
+            <td class="order-summary-column">
+              <section>
+                <table>
+                  <tr>
+                    <td><h3>Order Summary</h3></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><label>Product Subtotal</label></td>
+                    <td><label>$32.34</label></td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Shipping</label></td>
+                    <td><label>$4.99</label></td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Taxes</label></td>
+                    <td><label>$4.85</label</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><hr /></td>
+                  </tr>
+                  <tr>
+                    <td><label>Estimated Total</label></td>
+                    <td><label>$42.18</label></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <button class="continue-button">Place Order</button>
+                    </td>
+                  </tr>
+                </table>
+              </section>
+            </td>
+          </tr>
+        </table>
+        <div id="transactionResult"></div>
+      </fieldset>
+    </div>
+  </body>
+</html>

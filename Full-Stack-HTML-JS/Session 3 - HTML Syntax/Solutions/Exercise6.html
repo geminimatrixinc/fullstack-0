@@ -1,0 +1,73 @@
+<form id="regForm" autocomplete="on">
+  <fieldset>
+    <legend>Order Form</legend>
+    <p>
+      <label>
+        Full Name:
+        <input
+          id="fullname"
+          name="name"
+          type="text"
+          placeholder="Enter your name"
+          autofocus
+          required
+          size="50"
+        />
+      </label>
+    </p>
+    <p>
+      <label
+        >Telephone:
+        <input
+          id="tel"
+          name="telephone"
+          type="tel"
+          required
+          size="50"
+          placeholder="Pattern: 1-234-567-8910"
+          pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))"
+        />
+      </label>
+    </p>
+    <p>
+      <label
+        >E-mail address:
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+          size="50"
+        />
+      </label>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Emulators</legend>
+    <p>
+      <label>
+        Quantity (Maximum 5):
+        <input
+          name="form_number"
+          id="form_number"
+          type="number"
+          min="1"
+          max="5"
+        />
+      </label>
+      <label>
+        <input type="text" name="itemlist" list="items" size="45" />
+        <datalist id="items">
+          <option value=""></option>
+          <option value="Ataria"></option>
+          <option value="Sega Genesis"></option>
+          <option value="Nintendo"></option>
+          <option value="Play Station"></option>
+          <option value="XBox"></option>
+        </datalist>
+      </label>
+    </p>
+  </fieldset>
+  <input type="submit" value="Submit" />
+</form>

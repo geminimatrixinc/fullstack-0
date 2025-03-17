@@ -1,0 +1,48 @@
+Which tag would you use to link a CSS Stylesheet into your HTML page?
+
+Correct: <link href="">
+
+Option 1: <a href="">
+
+Option 2: <stylesheet href="">
+
+
+
+
+2. What best represents a CSS unit for pixels?
+
+Correct: px
+
+Option 1: pt
+
+Option 3: pem
+
+
+
+3. What is the property that defines the background color of any element in CSS?
+
+Correct: background-color
+
+Option 1: background-border
+
+Option 2: background
+
+
+4. What are some examples of css border properties?
+
+
+Correct: solid, dotted, grove
+
+Option 2: shallow, deep, intense
+
+Option 3: full, empty, blank
+
+
+Every element in HTML is wrapped by what?
+
+Correct: box
+
+Option 1: closure
+
+Option 2: triangle
+

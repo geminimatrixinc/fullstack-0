@@ -1,0 +1,42 @@
+1.  What is HTML?
+
+b.  A Markup language *
+a.  A programming language
+c.  A database script
+
+2. Will the browser interpret <HEAD> differently than <head> tag?
+
+a. No, HTML is case-insensitve *
+b. Yes, HTML is not case-sensitive
+
+3. What is the atonomy HTML element consist of?
+
+c. open tag, content, closing tag *
+a. header tag, content tag, footer tag
+b. doctype and meta data
+
+
+How do we construct comments in HTML?
+
+c. <!-- This is a comment -->  *
+a. /* This is a comment */
+b. /// This is a comment
+
+
+5. How can a HTML Page Structure be visualized?
+
+c. A Tree structure *
+a. A Linked Chain structure
+b. A Flat structure
+
+
+6. Why do we need a doctype declaration?
+
+a. Browsers need it for the window name and title of window tab.
+b. Browsers need it for unloading of web assets
+c. Browsers need it to determine which rendering mode to render the site with. *
+
+
+
+
+

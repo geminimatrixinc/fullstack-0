@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Event Demo</title>
+</head>
+<body>
+    <div id="container">
+        <br/>
+        
+        <a href="https://www.georgebrown.ca//">George Brown College</a>
+
+    </div>
+    <script>
+
+        let link = document.querySelector('a');
+
+        var clickMe = function(event) {
+            console.log('clicked');
+            alert('you clicked  me!');
+
+            event.preventDefault();
+        };
+
+        //link.addEventListener('click', clickMe);
+
+        link.onclick = clickMe;
+
+        //link.onclick = '';
+    </script>
+</body>

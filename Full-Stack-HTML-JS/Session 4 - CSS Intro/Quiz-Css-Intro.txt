@@ -1,0 +1,45 @@
+1. What is the CSS Cascade?
+
+Correct: The algorithm by which the browser decides which CSS styles to apply to an element
+
+2: The way in which the CSS renders in the browser.
+
+3: The rules ranking system for how the browser compiles the JavaScript code.
+
+
+
+2. What does a CSS rule set contain?
+
+Correct: A selector and a declaration block
+
+Option 2: A ranking and a value
+
+Option 3: An opening and closing element tag
+
+
+3. What is an example of an Id selector?
+
+Correct: #param1 { color: back }
+
+Option 2: p { color: black }
+
+Option 3: .param1 { color: black; }
+
+4. What are some examples of CSS selectors?
+
+Correct: Class, Id, Element
+
+Option 2: Interface, Class, Method
+
+Option 3: Tag, Element, Source
+
+
+5. What is CSS?
+
+Correct: Cascading Style Sheet
+
+Option 2: Centralized Style Sheet
+
+Option 3: Cascading Style System
+
+

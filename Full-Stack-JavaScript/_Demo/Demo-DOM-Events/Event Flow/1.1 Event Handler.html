@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript event handler </title>
+</head>
+<body>
+
+    <button id="btn">Click Me!</button>
+
+    <!-- PAGE LOADED -->
+    <script>
+         function display() {
+            alert('It was clicked!');
+        }
+
+        let btn = document.querySelector('#btn');
+    
+        btn.addEventListener('click',display);
+
+
+     </script>
+
+</body>
+</html>

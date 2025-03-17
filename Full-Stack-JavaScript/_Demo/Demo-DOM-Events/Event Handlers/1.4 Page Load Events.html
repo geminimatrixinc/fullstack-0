@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Load Events</title>
+</head>
+
+<body>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            console.log('The DOM is fully loaded.');
+        });
+
+        window.addEventListener('load', (event) => {
+            console.log('The page is fully loaded.');
+        });
+       
+        addEventListener('beforeunload', (event) => {
+            // show the confirmation dialog
+            //event.preventDefault();
+            console.log('before unload');
+        });
+
+        addEventListener('unload', (event) => {
+            console.log('unload');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard Events</title>
+</head>
+<body>
+  <br>
+  <input type="text" id="message">
+  <script>
+    let msg = document.getElementById('message');
+
+    console.log(msg);
+
+    msg.addEventListener("keydown", (event) => {
+          // handle keydown
+          console.log('key - down..');
+      });
+
+      msg.addEventListener("keypress", (event) => {
+          // handle keypress
+          console.log('key - press..');
+      });
+
+      msg.addEventListener("keyup", (event) => {
+          // handle keyup
+          console.log('key - up..');
+          console.log(event.keyCode);
+          if(event.keyCode === 13) {
+              alert('Enter Key is pressed!');
+          }
+      });
+  </script>
+</body>
+
+</html>
